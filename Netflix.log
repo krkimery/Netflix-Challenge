@@ -1,0 +1,180 @@
+commit 4323a34a216ef015b2264ec5d875f0b056bbe6c3
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Feb 16 13:16:07 2017 -0600
+
+    Final Update
+
+commit e5a69e4da1e78ca58ae7220e0a361fecbc1d3fac
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Thu Feb 16 11:55:29 2017 -0600
+
+    Added Kyle's email to the JSON file
+
+commit 93ce76a95c701980c61d1d1848f45d1b8aaf40cc
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Feb 16 05:50:33 2017 -0600
+
+    Add Json and fix case
+
+commit 05970648b2e45a342b16088fe7a452aa6172df4c
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Feb 16 05:45:15 2017 -0600
+
+    Add Json and fix case
+
+commit 64d11bb364046c5db61395c188b4ba318609b288
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Feb 16 05:40:07 2017 -0600
+
+    Remove json
+
+commit ecbd0ffdaf58734f0364fb79503a172440f1a03d
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Feb 16 05:34:04 2017 -0600
+
+    Add potential Json file
+
+commit 645a91e60340f4c82558905424359103ad9df49e
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Feb 16 04:48:36 2017 -0600
+
+    Cleanup repository
+
+commit 41905370c907acbf5c03801356b522faa336b232
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Wed Feb 15 18:44:25 2017 -0600
+
+    added log file
+
+commit 23f9d8f1529d67b480556769e04b261e73922770
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Wed Feb 15 18:43:44 2017 -0600
+
+    removed extra files
+
+commit e11069b29670753e1b5a60e8cfbae93d2aca9945
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Wed Feb 15 18:41:21 2017 -0600
+
+    Updated Test files, finalized Netflix.py comments
+
+commit aa272e05ecdf39b39ad24c78844176d6ad5ca4e3
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 15 17:54:51 2017 -0600
+
+    Rename cache files to standard format
+
+commit d94ca46ce7d301f44047c2eee26e7f916849ecce
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 15 17:26:29 2017 -0600
+
+    Rename cache files to standard format
+
+commit 864d0e35ba540082c942fd34cbc80f3c6e7ad305
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 15 16:57:52 2017 -0600
+
+    Improve rmse using new cache
+
+commit 4b48b12bcfb53abb2ff3f1bfe3df65eb1d1b3e02
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 15 13:39:47 2017 -0600
+
+    Improve RMSE using new cache
+
+commit 764ff8972e1ef009adb63cd94406e2583a6e943f
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Mon Feb 13 16:32:51 2017 -0600
+
+    Prepared Netflix.py for final implementation.
+
+commit 86a01fe5e1452543f6df57f1a2fa069977188fae
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Mon Feb 13 02:32:25 2017 -0600
+
+    Fixed and Updated all unit/acceptance tests, prepared Netflix.py for final implementation.
+
+commit 17c557d83158564403fea8e57f0f00a307e5c044
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Sun Feb 12 03:06:19 2017 -0600
+
+    first good test
+
+commit 8a1d0041b07344da92978b26fbc16dfb214cb472
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Sun Feb 12 02:31:36 2017 -0600
+
+    fixed typos
+
+commit f005d597ac9112de0208568d0f54457b24da7968
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Sun Feb 12 02:25:27 2017 -0600
+
+    Files ready for caches!
+
+commit 3c49a849934235958f03ea1e00f703d093b39fb1
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Sat Feb 11 21:49:47 2017 -0600
+
+    Fixed RunNetflix.out to show accurate output, updated Netflix.py
+
+commit 7457e207a662aa8e2d01ef37699ab4695250c86d
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Sat Feb 11 20:29:32 2017 -0600
+
+    Customized Netflix.py to match our caches
+
+commit b5326a3a7622d6725d2bddeec9520d68a7693849
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Sat Feb 11 20:06:58 2017 -0600
+
+    Add new cache file
+
+commit eb387f0109d0f98a3cad5514d368a8947e3e6481
+Merge: e9c95b1 460ec6f
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Sat Feb 11 19:41:45 2017 -0600
+
+    Merge branch 'dev' of https://github.com/nfrawley93/cs329e-netflix into dev
+
+commit e9c95b157fbbc6207792ab8397667f6378441411
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Sat Feb 11 19:41:05 2017 -0600
+
+    Create Caching program and local cache
+
+commit 460ec6f54ff9fa8cf0384d7dd8149f423d4a1e4e
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Wed Feb 8 15:43:04 2017 -0600
+
+    Testing Travis CI with pushes from collaborators.
+
+commit 6b0c7a60d35d4ba7df4c570725102550586477f7
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 8 15:08:17 2017 -0600
+
+    Run make test
+
+commit 48363c891b9525234eb7822aadd76f8cb9cebaa9
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 8 14:56:03 2017 -0600
+
+    Create Netflix.html
+
+commit 696509e5d93f2c233045357e8e9c5cbf96f79c62
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Feb 8 12:54:50 2017 -0600
+
+    Remove ReadMe file
+
+commit 33686e9723f41450013d5d54139bcfbcc6bc8bd9
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Mon Feb 6 13:14:29 2017 -0600
+
+    Add public netfilx files to private repo
+
+commit dabed583a2f60efa8e9cc5ddacf518058878d8ac
+Author: nfrawley <nfrawley93@users.noreply.github.com>
+Date:   Mon Feb 6 13:07:43 2017 -0600
+
+    Initial commit

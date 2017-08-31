@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Netflix</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Netflix</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/kyle/Desktop/School/2017/CS329E/cs329e-netflix/Netflix.py">/home/kyle/Desktop/School/2017/CS329E/cs329e-netflix/Netflix.py</a></font></td></tr></table>
+    <p><tt>#------------------------------------------------------<br>
+#&nbsp;Netflix.py<br>
+#&nbsp;A&nbsp;program&nbsp;to&nbsp;predict&nbsp;customers'&nbsp;Netflix&nbsp;movie&nbsp;ratings<br>
+#&nbsp;By:&nbsp;Kyle&nbsp;Kimery&nbsp;and&nbsp;Nick&nbsp;Frawley<br>
+#------------------------------------------------------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="posixpath.html">posixpath</a><br>
+</td><td width="25%" valign=top><a href="pickle.html">pickle</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-create_cache"><strong>create_cache</strong></a>(filename)</dt><dd><tt>filename&nbsp;is&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;cache&nbsp;file&nbsp;to&nbsp;load<br>
+returns&nbsp;a&nbsp;dictionary&nbsp;after&nbsp;loading&nbsp;the&nbsp;file&nbsp;or&nbsp;pulling&nbsp;the&nbsp;file&nbsp;from&nbsp;the&nbsp;public_html&nbsp;page</tt></dd></dl>
+ <dl><dt><a name="-netflix_eval"><strong>netflix_eval</strong></a>(reader, writer)</dt><dd><tt>reads&nbsp;in&nbsp;a&nbsp;movie&nbsp;ID&nbsp;and&nbsp;customer&nbsp;IDs.&nbsp;predicts&nbsp;a&nbsp;customer's&nbsp;score&nbsp;for&nbsp;each<br>
+movie&nbsp;and&nbsp;then&nbsp;compares&nbsp;this&nbsp;prediction&nbsp;to&nbsp;their&nbsp;actual&nbsp;rating&nbsp;in&nbsp;order&nbsp;to&nbsp;<br>
+judge&nbsp;how&nbsp;accurate&nbsp;the&nbsp;prediction&nbsp;was.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>actual_scores_cache</strong> = {(6, 501): 3, (6, 658): 3, (6, 825): 3, (7, 285): 5, (7, 6408): 5, (7, 8393): 3, (7, 9217): 5, (7, 14759): 3, (8, 1144): 4, (8, 1202): 5, ...}<br>
+<strong>customerSTDDiff</strong> = {6: -0.27206593962334064, 7: 0.40741825124408149, 8: 0.62919204391629002, 10: -0.19650156809631675, 25: -0.18542291165163635, 33: 0.14815099006844329, 42: 0.4469103566370487, 59: 0.22211814965737187, 79: 0.0059521345163521056, 83: 0.43972800518780975, ...}<br>
+<strong>dictionaryCustomerOffset</strong> = {6: -0.8475750626215306, 7: 0.6168154230070365, 8: 0.533961141531549, 10: -0.1377066629776711, 25: 0.6904925502211023, 33: -0.3805297411999162, 42: 0.27441543103082583, 59: 1.024684708887188, 79: -0.3967114676424366, 83: 0.19269769463478403, ...}<br>
+<strong>dictionaryMovieAverage</strong> = {1: 3.7495, 2: 3.5586, 3: 3.6412, 4: 2.7394, 5: 3.9193, 6: 3.0844, 7: 2.129, 8: 3.1898, 9: 2.6211, 10: 3.1807, ...}<br>
+<strong>dictionaryMovieSTD</strong> = {1: 1.0669, 2: 1.2751, 3: 0.9771, 4: 1.2983, 5: 1.2919, 6: 1.2896, 7: 1.0699, 8: 1.3145, 9: 1.2412, 10: 1.1316, ...}<br>
+<strong>sqrt</strong> = &lt;ufunc 'sqrt'&gt;<br>
+<strong>square</strong> = &lt;ufunc 'square'&gt;<br>
+<strong>subtract</strong> = &lt;ufunc 'subtract'&gt;</td></tr></table>
+</body></html>
